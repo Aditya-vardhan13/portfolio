@@ -30,22 +30,22 @@ export default function Projects() {
         <section id="projects" className="section">
             <div className="container">
                 <h2 className="section-title"><span>Pr</span>ojects</h2>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '0.75rem' }}>
                     {projects.map((project, index) => (
-                        <div key={index} className="project-card">
-                            <h3 style={{ fontSize: '1.5rem', marginBottom: '0.5rem', color: 'var(--text-main)' }}>{project.title}</h3>
-                            <p style={{ color: 'var(--primary)', marginBottom: '1rem', fontSize: '0.9rem', fontWeight: '600' }}>{project.subtitle}</p>
-                            <p style={{ color: 'var(--text-muted)', lineHeight: '1.6', marginBottom: '1.5rem' }}>
+                        <div key={index} className="project-card" style={{ padding: '0.85rem' }}>
+                            <h3 style={{ fontSize: '1.1rem', marginBottom: '0.15rem', color: 'var(--text-main)' }}>{project.title}</h3>
+                            <p style={{ color: 'var(--primary)', marginBottom: '0.4rem', fontSize: '0.85rem', fontWeight: '600' }}>{project.subtitle}</p>
+                            <p style={{ color: 'var(--text-muted)', lineHeight: '1.4', marginBottom: '0.6rem', fontSize: '0.85rem' }}>
                                 {project.description}
                             </p>
-                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
                                 {project.tags.map((tag, i) => (
                                     <span key={i} style={{
                                         background: 'rgba(78, 159, 61, 0.1)',
                                         color: 'var(--primary)',
-                                        padding: '4px 12px',
+                                        padding: '1px 8px',
                                         borderRadius: '50px',
-                                        fontSize: '0.8rem',
+                                        fontSize: '0.7rem',
                                         fontWeight: '500'
                                     }}>
                                         {tag}

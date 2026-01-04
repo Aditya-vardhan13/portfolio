@@ -18,15 +18,15 @@ export default function Skills() {
         <section id="skills" className="section" style={{ background: 'var(--surface)' }}>
             <div className="container">
                 <h2 className="section-title"><span>Sk</span>ills</h2>
-                <div style={{ display: 'grid', gap: '2rem' }}>
+                <div style={{ display: 'grid', gap: '1rem' }}>
                     {skillCategories.map((category, index) => (
                         <div key={index}>
-                            <h3 style={{ fontSize: '1.2rem', color: 'var(--text-muted)', marginBottom: '1rem', borderBottom: '1px solid var(--border)', paddingBottom: '0.5rem' }}>
+                            <h3 style={{ fontSize: '0.95rem', color: 'var(--text-muted)', marginBottom: '0.5rem', borderBottom: '1px solid var(--border)', paddingBottom: '0.25rem' }}>
                                 {category.title}
                             </h3>
-                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
+                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
                                 {category.skills.map((skill, i) => (
-                                    <span key={i} className="skill-tag">
+                                    <span key={i} className="skill-tag" style={{ padding: '4px 10px', fontSize: '0.8rem' }}>
                                         {skill}
                                     </span>
                                 ))}

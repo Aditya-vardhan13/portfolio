@@ -65,26 +65,26 @@ button {
 }
 
 .section {
-  padding: 80px 0;
+  padding: 24px 0;
 }
 
 /* Typography & Elements */
 .section-title {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 12px;
   color: var(--text-main);
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
 }
 
 .section-title span {
   color: var(--primary);
   display: inline-block;
   border: 2px solid var(--primary);
-  padding: 0 8px;
-  margin-right: 4px;
+  padding: 0 6px;
+  margin-right: 0px;
 }
 
 .btn-primary {
@@ -159,4 +159,18 @@ button {
 .social-icon:hover {
   transform: translateY(-3px);
   opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.nav-links-container::-webkit-scrollbar {
+  display: none;
 }

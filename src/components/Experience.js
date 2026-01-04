@@ -53,35 +53,36 @@ export default function Experience() {
         <section id="experience" className="section" style={{ background: 'var(--surface)' }}>
             <div className="container">
                 <h2 className="section-title"><span>Ex</span>perience</h2>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                     {experiences.map((exp, index) => (
                         <div key={index} style={{
-                            borderLeft: '4px solid var(--primary)',
-                            paddingLeft: '2rem',
-                            position: 'relative'
+                            borderLeft: '3px solid var(--primary)',
+                            paddingLeft: '1rem',
+                            position: 'relative',
+                            marginBottom: '0.5rem'
                         }}>
                             <div style={{
                                 position: 'absolute',
-                                left: '-12px',
-                                top: '0',
-                                width: '20px',
-                                height: '20px',
+                                left: '-9px',
+                                top: '4px',
+                                width: '14px',
+                                height: '14px',
                                 background: 'var(--background)',
-                                border: '4px solid var(--primary)',
+                                border: '3px solid var(--primary)',
                                 borderRadius: '50%'
                             }}></div>
 
-                            <div style={{ marginBottom: '1rem' }}>
-                                <h3 style={{ fontSize: '1.5rem', fontWeight: '700', color: 'var(--text-main)' }}>{exp.company}</h3>
-                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '0.5rem' }}>
-                                    <span style={{ fontSize: '1.1rem', color: 'var(--primary)', fontWeight: '600' }}>{exp.role}</span>
-                                    <span style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>{exp.period}</span>
+                            <div style={{ marginBottom: '0.25rem' }}>
+                                <h3 style={{ fontSize: '1.1rem', fontWeight: '700', color: 'var(--text-main)' }}>{exp.company}</h3>
+                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '0', flexWrap: 'wrap', gap: '0.25rem' }}>
+                                    <span style={{ fontSize: '0.9rem', color: 'var(--primary)', fontWeight: '600' }}>{exp.role}</span>
+                                    <span style={{ color: 'var(--text-muted)', fontSize: '0.8rem' }}>{exp.period}</span>
                                 </div>
                             </div>
 
-                            <ul style={{ listStyle: 'none', color: 'var(--text-muted)', lineHeight: '1.6' }}>
+                            <ul style={{ listStyle: 'none', color: 'var(--text-muted)', lineHeight: '1.4', fontSize: '0.85rem' }}>
                                 {exp.points.map((point, i) => (
-                                    <li key={i} style={{ marginBottom: '0.5rem', position: 'relative', paddingLeft: '1.5rem' }}>
+                                    <li key={i} style={{ marginBottom: '0.15rem', position: 'relative', paddingLeft: '1rem' }}>
                                         <span style={{ position: 'absolute', left: '0', color: 'var(--accent)' }}>▹</span>
                                         {point}
                                     </li>

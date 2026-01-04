@@ -20,10 +20,18 @@ export default function Navbar() {
             padding: '1rem 0'
         }}>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <a href="#" style={{ fontSize: '1.25rem', fontWeight: '800' }}>
+                <a href="#" style={{ fontSize: '1.25rem', fontWeight: '800', flexShrink: 0 }}>
                     <span style={{ color: 'var(--primary)', border: '2px solid var(--primary)', padding: '0 4px', marginRight: '2px' }}>Ad</span>itya
                 </a>
-                <div style={{ display: 'flex', gap: '2rem' }}>
+                <div style={{
+                    display: 'flex',
+                    gap: '2rem',
+                    overflowX: 'auto',
+                    marginLeft: '2rem',
+                    paddingBottom: '4px', /* For scrollbar space if needed */
+                    scrollbarWidth: 'none', /* Firefox */
+                    msOverflowStyle: 'none'  /* IE 10+ */
+                }} className="nav-links-container">
                     {links.map((link) => (
                         <a
                             key={link.name}
