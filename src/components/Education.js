@@ -30,9 +30,9 @@ export default function Education() {
                             <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'flex-start' }}>
                                 <span style={{ fontSize: '1.2rem', color: 'var(--primary)' }}>🏆</span>
                                 <div>
-                                    <h4 style={{ fontSize: '0.95rem', fontWeight: '600', color: 'var(--text-main)' }}>AWS Gen AI JAM</h4>
+                                    <h4 style={{ fontSize: '0.95rem', fontWeight: '600', color: 'var(--text-main)' }}>AWS GenAI JAM</h4>
                                     <p style={{ color: 'var(--text-muted)', fontSize: '0.8rem', marginTop: '0.1rem' }}>
-                                        3rd Place. Developed multilingual AI tutor.
+                                        3rd Place, Public Sector Hackathon. Developed a multilingual AI tutor.
                                     </p>
                                 </div>
                             </div>
@@ -40,22 +40,13 @@ export default function Education() {
                             <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'flex-start' }}>
                                 <span style={{ fontSize: '1.2rem', color: 'var(--primary)' }}>🚀</span>
                                 <div>
-                                    <h4 style={{ fontSize: '0.95rem', fontWeight: '600', color: 'var(--text-main)' }}>NASA AMES Contest 2017</h4>
+                                    <h4 style={{ fontSize: '0.95rem', fontWeight: '600', color: 'var(--text-main)' }}>NASA AMES Space Settlement Contest 2017</h4>
                                     <p style={{ color: 'var(--text-muted)', fontSize: '0.8rem', marginTop: '0.1rem' }}>
-                                        Top 100 Projects worldwide.
+                                        Top 100 worldwide.
                                     </p>
                                 </div>
                             </div>
 
-                            <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'flex-start' }}>
-                                <span style={{ fontSize: '1.2rem', color: 'var(--primary)' }}>🧠</span>
-                                <div>
-                                    <h4 style={{ fontSize: '0.95rem', fontWeight: '600', color: 'var(--text-main)' }}>Inter IIT Cultural Meet</h4>
-                                    <p style={{ color: 'var(--text-muted)', fontSize: '0.8rem', marginTop: '0.1rem' }}>
-                                        Quiz contingent member 2022-23.
-                                    </p>
-                                </div>
-                            </div>
                         </div>
                     </div>
 

@@ -2,15 +2,19 @@ export default function Skills() {
     const skillCategories = [
         {
             title: 'Languages',
-            skills: ['Python', 'SQL', 'Java']
+            skills: ['Python', 'SQL', 'C++', 'Java']
         },
         {
-            title: 'Frameworks & Tools',
-            skills: ['Tensorflow', 'CUDA', 'AWS', 'Pytorch', 'Langchain', 'YOLO', 'Django', 'Git', 'Vector DBs', 'FastAPI', 'Streamlit', 'DGL', 'Selenium', 'Matlab']
+            title: 'AI/ML',
+            skills: ['PyTorch', 'TensorFlow', 'HuggingFace', 'LangChain', 'LangGraph', 'DGL', 'YOLO', 'CUDA', 'RAG', 'LLMs']
         },
         {
-            title: 'Libraries',
-            skills: ['NumPy', 'Pandas', 'OpenCV', 'Beautiful Soup', 'Scikit-Learn', 'Matplotlib', 'Keras']
+            title: 'Cloud, DevOps & CI/CD',
+            skills: ['AWS (Bedrock, OpenSearch, EC2, DynamoDB)', 'Kubernetes', 'Docker', 'Git', 'PostgreSQL']
+        },
+        {
+            title: 'Frameworks & Libraries',
+            skills: ['FastAPI', 'Django', 'Streamlit', 'FAISS', 'Redis', 'NumPy', 'Pandas', 'Scikit-Learn', 'OpenCV']
         }
     ];
 

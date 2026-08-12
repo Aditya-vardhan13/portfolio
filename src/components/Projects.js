@@ -1,28 +1,16 @@
 export default function Projects() {
     const projects = [
         {
-            title: 'Distributed GNNs',
-            subtitle: 'IIT Bhilai Research Intern',
+            title: 'Distributed GNN Partitioning',
+            subtitle: 'IIT Bhilai Research Project',
             description: 'Worked on Distributed GNNs using DGL and PyTorch for scalability. Designed a decision tree-based partitioning algorithm that reduced entropy by 20% and improved accuracy by 5-10%.',
             tags: ['DGL', 'PyTorch', 'Research']
         },
         {
-            title: 'Facial Emotion Recognition',
-            subtitle: 'Computer Vision Model',
-            description: 'Achieved 65% accuracy in classifying expressions using pre-trained MobileNetV2 with OpenCV and TensorFlow. Implemented real-time predictions from webcam data after extensive data cleaning and augmentation.',
-            tags: ['OpenCV', 'TensorFlow', 'MobileNetV2']
-        },
-        {
-            title: 'Recommendation System',
-            subtitle: 'Streamlit Web App',
-            description: 'Developed a multi-purpose Streamlit-based web app for top 10 recommendations based on user preferences. Utilized TF-IDF and count vectorization for products like movies, series, and books.',
-            tags: ['Streamlit', 'TF-IDF', 'NLP']
-        },
-        {
             title: 'Crisis Impact Summarizer',
-            subtitle: 'Automated NLP System',
-            description: 'Designed an automated system for extracting and summarizing crisis-related information. Utilized CrisisFacts and PyTerrier for retrieval, with LLM-generated summaries.',
-            tags: ['NLP', 'LLMs', 'PyTerrier']
+            subtitle: 'Crisis Intelligence System',
+            description: 'Built an NLP-based crisis intelligence system using PyTerrier, CrisisFacts, and open-source LLMs for retrieval and summarization.',
+            tags: ['PyTerrier', 'CrisisFacts', 'Open-source LLMs']
         }
     ];
 

@@ -1,14 +1,24 @@
 export default function Experience() {
     const experiences = [
         {
-            company: 'Centilytics',
-            role: 'Sr Data Scientist',
-            period: 'May 2024 - Present',
+            company: 'Teradata',
+            role: 'AI Software Engineer II',
+            period: 'Jan 2026 - Present',
             points: [
-                'Developed an AI-driven work allocation bot that classifies tickets by urgency and skill required, matching them to engineers; improved completion time by 15% and reduced expenses by 5%.',
-                'Engineered a transcription API using Whisper, LangChain, and FFmpeg with a FastAPI-based RAG pipeline on AWS EC2; automated MOM and action items, reducing manual effort by 90%.',
-                'Automated quarterly performance review scheduling by parallelizing meetings, reducing total time by 32% and room usage by 60%.',
-                'Led research on fine-tuned SLMs vs. LLMs for SQL and Python in collaboration with CEO and CTO.'
+                'Implemented the Enterprise MCP Management engine using Kubernetes reconciliation, reducing deployment and operational failures by 40% and ensuring reliable deployment, stop, and deletion workflows.',
+                'Designed multi-tenant database routing for MCP servers, reducing infrastructure overhead by 25% by enabling a single deployment to securely serve multiple Teradata environments and accelerating enterprise-scale adoption.',
+                'Developed endpoint management APIs with RBAC and tool-level authorization controls, reducing administrative effort by 60% while strengthening governance and secure AI-agent access to enterprise data.',
+                'Built a comprehensive integration testing and resiliency framework, reducing release validation effort by 90%, eliminating critical deployment issues, and serving as the release gate across 4 public MCP releases.'
+            ]
+        },
+        {
+            company: 'Zarthi',
+            role: 'Senior Data Scientist',
+            period: 'May 2024 - Jan 2026',
+            points: [
+                'Built a RAG-powered chatbot and recommendation platform enabling users to discover and navigate enterprise service offerings through natural language interactions.',
+                'Architected a meeting intelligence platform using Whisper, LangChain, FastAPI, and AWS that automated transcripts, MOM generation, action items, and semantic search, reducing manual effort by 90%.',
+                'Developed an AI-driven ticket allocation engine matching work based on urgency, skill requirements, and engineer availability, improving resolution time by 15% and reducing workforce costs by 5%.'
             ]
         },
         {
@@ -39,12 +49,11 @@ export default function Experience() {
             ]
         },
         {
-            company: 'Zealth-AI (YC 20)',
+            company: 'Zealth-AI (YC W21)',
             role: 'Data Science Intern',
             period: 'Feb 2023',
             points: [
-                'Optimized CareShare, a Davinci-based healthcare chatbot, to assist users with daily health queries.',
-                'Developed a drop-down feature in CareShare that accurately predicts skin diseases based on symptom images (rashes, bumps) using Zero Shot Learning. Increased daily user engagement by 1.5X.'
+                'Developed a skin-condition prediction feature for CareShare, a healthcare chatbot, using Zero-Shot Learning on symptom images, increasing daily user engagement by 1.5x.'
             ]
         }
     ];

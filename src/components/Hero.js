@@ -70,7 +70,7 @@ export default function Hero() {
                         pointerEvents: step >= 3 ? 'auto' : 'none'
                     }}>
                         <h3 style={{ fontSize: 'clamp(1.2rem, 4vw, 1.5rem)', color: 'var(--text-muted)', marginBottom: '1.5rem', fontWeight: '400' }}>
-                            AI Engineer by Profession <span style={{ color: 'var(--accent)' }}>//</span> Software Engineer by Heart
+                            AI Engineer by Profession <span style={{ color: 'var(--accent)' }}>{'//'}</span> Software Engineer by Heart
                         </h3>
 
                         <div style={{ maxWidth: '600px', marginBottom: '2rem', color: 'var(--text-muted)', lineHeight: '1.6', fontSize: 'clamp(0.9rem, 3vw, 1rem)' }}>
@@ -81,7 +81,7 @@ export default function Hero() {
                         </div>
 
                         <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-                            <a href="https://drive.google.com/file/d/1O9oplZNTWbmxUKIcTYA8zOsBoYPWr1ch/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{
+                            <a href="https://drive.google.com/file/d/1XNrpv-rjlof9WKOgcds6Dz-tSKTMdu3P/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{
                                 background: 'var(--primary)',
                                 color: 'white',
                                 padding: '12px 24px',

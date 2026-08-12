@@ -28,7 +28,7 @@ export default function Contact() {
                         <Image src="/linkedin.png" alt="LinkedIn" width={24} height={24} style={{ filter: 'brightness(0) invert(1)' }} />
                     </a>
 
-                    <a href="https://leetcode.com/kammelaaditya/" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="LeetCode">
+                    <a href="https://leetcode.com/u/slimshady_13/" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="LeetCode">
                         <Image src="/leetcode.webp" alt="LeetCode" width={24} height={24} style={{ filter: 'brightness(0) invert(1)' }} />
                     </a>
                 </div>
